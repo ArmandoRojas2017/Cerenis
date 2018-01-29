@@ -14,7 +14,7 @@ class AddCreacionTablaUsuarioAtIndex extends Migration
     public function up()
     {
         Schema::table('usuario', function (Blueprint $table) {
-            $table->index('id', 'sobre_nombre');
+       
         });
     }
 
@@ -26,7 +26,7 @@ class AddCreacionTablaUsuarioAtIndex extends Migration
     public function down()
     {
         Schema::table('usuario', function (Blueprint $table) {
-            $table->dropIndex('sobre_nombre');
+        
         });
     }
 }
