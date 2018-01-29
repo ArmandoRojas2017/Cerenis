@@ -63,6 +63,13 @@
                 text-transform: uppercase;
             }
 
+            .text-white{
+                color: white;
+            }
+             .text-black{
+                color: black;
+            }
+
             .m-b-md {
                 margin-bottom: 30px;
             }

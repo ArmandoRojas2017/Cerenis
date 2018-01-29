@@ -9,8 +9,9 @@
                 </div>
 
                 <h2>by: {{ $autor }} </h2>
-
-                <button class="btn btn-primary btn-lg"> Ver Mensajes </button>
+				<a href="mensaje" >	
+                <button class="btn btn-primary btn-lg" id=mensaje > Ver Mensajes </button> </a>
             </div>
         </div>
 @endsection 
+
