@@ -10,13 +10,7 @@
 
                 <h2>by: {{ $autor }} </h2>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+                <button class="btn btn-primary btn-lg"> Ver Mensajes </button>
             </div>
         </div>
 @endsection 
