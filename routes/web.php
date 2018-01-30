@@ -12,4 +12,4 @@
 */
 
 Route::get('/', 'Index@get' );
-Route::get('mensaje', 'Menssage@get' );
+Route::get('mensaje', 'Menssage2@get' );
