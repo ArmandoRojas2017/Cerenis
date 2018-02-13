@@ -2,34 +2,28 @@
 
 @section ('cuerpo')
     
-     <div class="flex-center position-ref full-height container text-black">
- <div class="row jumbotron ">
-<div class="col-md-12"" >
-<dl class="dl-horizontal">
-        @foreach ($mensajes as $men)
-    
-          <dt>{{ $men->id  }}</dt>
+   
+<div class="container">
+<div class="row">
+	<div class="col-md-6">
+		
+	</div>
 
-          <dd>
-              {{ $men->texto }}
-          </dd>
-       @endforeach
-
-</dl>
-    
-</div>
-
-<div class="col-md-12 text-center" >
-
- <a href="/">
+	<div class="col-md-12">
+	<a href="/">
+	<button class="btn btn-primary btn-lg"> Ir A Home</button>
+ </a>
+		
+	</div>
+	
  
- {{ $mensajes[0]['texto'] }}
 
-    <button class="btn btn-primary btn-lg"> Ir A Home</button>
-    </a>
 </div>
- </div> 
- </div>
+</div>
+ 
+
   
    
 @endsection 
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
