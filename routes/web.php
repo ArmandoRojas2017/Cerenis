@@ -13,3 +13,4 @@
 
 Route::get('/', 'Index@get' );
 Route::get('mensaje', 'CatalogoController@get' );
+Route::get('cerenis/paola/cabrera/{id}', 'MensajeController@show' );
