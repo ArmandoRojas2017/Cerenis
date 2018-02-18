@@ -13,4 +13,6 @@
 
 Route::get('/', 'Index@get' );
 Route::get('mensaje', 'CatalogoController@get' );
-Route::get('cerenis/paola/cabrera/{id}', 'MensajeController@show' );
+Route::get('cerenis/paola/cabrera/{messages}', 'MensajeController@show' );
+
+Route::get('formulario', 'Index@formulario');
