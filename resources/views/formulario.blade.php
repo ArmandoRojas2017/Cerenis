@@ -1,13 +1,14 @@
-@extends('index')
+@extends('template.index')
 
-@section('body')
-
+@section('cuerpo')
+<div class="container" >
 <div class="row">
 	<form action="/recibe" method="post">
 		
 		<input type="text" placeholder="Que opinas sobre laravel??">
 
 	</form>
+</div>
 </div>
 
 

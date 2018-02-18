@@ -18,4 +18,16 @@ class Index extends Controller
    		return view('welcome',$datos);
 
    }
+
+   public function formulario(){
+
+   		return view('armando.formulario');
+   }
+
+   public function recibe(Request $request){
+
+      
+
+      return dd($request->all());
+   }
 }

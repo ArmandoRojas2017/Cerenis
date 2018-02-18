@@ -16,3 +16,5 @@ Route::get('mensaje', 'CatalogoController@get' );
 Route::get('cerenis/paola/cabrera/{messages}', 'MensajeController@show' );
 
 Route::get('formulario', 'Index@formulario');
+
+Route::post('recibe', 'Index@recibe');
