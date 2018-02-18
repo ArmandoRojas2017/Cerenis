@@ -6,7 +6,7 @@
 	<form action="/recibe" method="post">
 		
 
-		<input name=opino type="text" placeholder="Que opinas sobre laravel??">
+		<input name=texto type="text" placeholder="Que opinas sobre laravel??">
 
 		{{ csrf_field() }}
 

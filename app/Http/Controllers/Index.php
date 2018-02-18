@@ -24,10 +24,17 @@ class Index extends Controller
    		return view('armando.formulario');
    }
 
+   /*Probando Validaciones*/
+
    public function recibe(Request $request){
 
+      // auntenticar 
       
+      /*Obligatorio el objecto request, el array de reglas */
+      $this->validate($request , [
+            'texto' => 'required'
+         ]  );
 
-      return dd($request->all());
+      return "LLego!";
    }
 }
